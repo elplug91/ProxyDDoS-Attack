@@ -334,9 +334,9 @@ x = 0
 for x in xrange(thread):
     attacco().start()
     time.sleep(0.003)
-print "Ataque iniciado..."
-print "Buena suerte..."
-print "Pulsa Ctrl + C para salir..."
+print ("Ataque iniciado...")
+print ("Buena suerte...")
+print ("Pulsa Ctrl + C para salir...")
 nload = 0
 while not nload:
     time.sleep(1)
